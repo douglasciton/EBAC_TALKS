@@ -5,14 +5,15 @@
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
+    margin: 0, auto;
 
     &--primary {
         color: #fff;
         background-color: #4F2AC3;
     }
 
-    &:hover {
-        background-color: #2f52eb;
+    :hover {
+        background-color: rgb(59, 15, 219);
     }
 
     @media (max-width: 640px) {
@@ -23,7 +24,7 @@
     }
 
     @media (max-width: 1024px) {
-        display: flex;
+        display: block;
         align-items: center;
     }
 }

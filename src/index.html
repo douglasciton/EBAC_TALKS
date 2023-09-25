@@ -11,126 +11,49 @@
         href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@500&family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 
 <body>
     <header class="hero">
+        <div class="logo">
+            <img class="hero__image" src="./images/logo do cruzeiro.png" alt="">
+            <p class="hero__text">CAMPEONATO BRASILEIRO</p>
+            <img class="hero__image" src="./images/Logo do AMG.png" alt="">
+        </div>
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
             <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em <span id="contador"></span>
+                MINEIRÃO | BELO HORIZONTE - MG
+                01|10|2023 - 16:00
+                <br>
+                <span id="contador"></span>
             </p>
-            <div class="infos-bar">
-                <ul class="infos-bar__infos">
-                    <li class="infos-bar__infos__item">
-                        <b>Localização</b>
-                        <p>Alianz Parque - Barra Funda - São Paulo</p>
-                    </li>
-                    <li class="infos-bar__infos__item">
-                        <b>Preço</b>
-                        <p>A partir de R$ 120,00</p>
-                    </li>
-                    <li class="infos-bar__infos__item">
-                        <b>Quando</b>
-                        <p>01/11/2023 às 19hrs</p>
-                </ul>
+            <div class="button">
                 <a href="#" class="button button--primary">
                     Garanta sua vaga
                 </a>
-                </li>
             </div>
         </div>
     </header>
-    <section class="event event--frontend" >
-        <div class="container" data-aos="fade-rigth">
+    <section class="event">
+        <div class="container">
             <div class="event__details">
-                <h2 class="event__details__title">Front-End</h2>
-                <p class="event__details__description">Front-end é uma área da programação que se dedica a criar a parte
-                    visual e interativa de um site, aplicativo ou software. É o que o usuário vê e usa quando acessa uma
-                    plataforma digital². Quem trabalha com Front End é responsável por desenvolver por meio do código
-                    uma interface gráfica e, normalmente, com as tecnologias base da Web: HTML, CSS e JavaScript.
+                <h2 class="event__details__title">Setores</h2>
+                <p class="event__details__description">
                 </p>
-                <p class="event__details__description">O HTML é a linguagem que define a estrutura e o conteúdo da
-                    página, o CSS é a linguagem que define o
-                    visual e o layout da página, e o JavaScript é a linguagem que define o comportamento e a interação
-                    da página.
-                </p>
-                <p class="event__details__description">Em suma, consiste em tudo aquilo que diz respeito à parte da
-                    frente de um site, aplicativo ou
-                    software; toda a aparência visível pelos seus visitantes. Essa programação também é chamada de
-                    client-side, pois é executada no lado do cliente, ou seja, no navegador do usuário.</p>
-
-
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="Front-End">
+            <img class="event__image" src="./images/Setores.png" alt="Imagem dos Setores do Estadio Mineirão">
         </div>
-    </section>
-    <section class="event event--ux-ui event--image-left" >
-        <div class="container" data-aos="fade-left">
-            <div class="event__details">
-                <h2 class="event__details__title">Ux-Ui</h2>
-                <p class="event__details__description">User Experience (UX), ou “experiência do usuário” em português,
-                    refere-se à experiência geral que um usuário tem ao interagir com um produto ou serviço. Isso inclui
-                    a facilidade de uso, a eficiência da interface e quão agradável é usar o produto ou serviço. A
-                    experiência do usuário é subjetiva e pode variar de pessoa para pessoa.
-                <p class="event__details__description">User Interface (UI), ou “interface do usuário” em português,
-                    refere-se aos elementos específicos em uma página ou aplicativo com os quais um usuário interage.
-                    Isso inclui botões, menus, telas e tudo o mais que o usuário usa para interagir com o produto ou
-                    serviço. A interface do usuário é mais objetiva e controlável.
-                </p>
-                <p class="event__details__description">Em resumo, UI é sobre como as coisas parecem e UX é sobre como as
-                    coisas funcionam. Ambos são essenciais para criar um produto digital eficaz.</p>
+        <section class="event">
+            <div class="container">
+                <div class="event__details">
+                    <h2 class="event__details__title">Preços</h2>
+                    <p class="event__details__description">
+                    </p>
+                </div>
+                <img class="event__image" src="./images/Tabela.png" alt="Tabela de Preços">
             </div>
-            <img class="event__image" src="./images/ui-ux.png" alt="Ui-Ux">
-        </div>
-    </section>
-    <section class="event event--data-science">
-        <div class="container" data-aos="fade-rigth">
-            <div class="event__details">
-                <h2 class="event__details__title">Data-Science</h2>
-                <p class="event__details__description">Data Science, ou ciência de dados, é o estudo disciplinado dos
-                    dados e informações gerados na nossa era digital. O objetivo é gerar insights e indicar caminhos a
-                    partir das análises realizadas.
-                    O trabalho de Data Science vai além da pura análise estatística de observação. Através de diversas
-                    ferramentas, o cientista de dados pode realizar estudos preditivos, ou seja, de apontar possíveis
-                    movimentos futuros, tendências, comportamentos e acontecimentos.
-                <p class="event__details__description">Os profissionais que trabalham com Data Science normalmente usam
-                    Python, a linguagem mais popular em Data Science, além de utilizar diversas bibliotecas e
-                    ferramentas paralelas. Eles aprendem sobre coleta, preparação e exploração de dados e compreendem
-                    como visualizar dados e comunicar resultados através de gráficos.
-                </p>
-                <p class="event__details__description">Em resumo, a ciência de dados é essencial para auxiliar empresas
-                    e profissionais em suas tomadas de decisões, empoderando profissionais de todas as áreas a lidar com
-                    dados e gerar insights que vão realmente impactar suas áreas de atuação.</p>
-            </div>
-            <img class="event__image" src="./images/data.png" alt="Data-Science">
-        </div>
-    </section>
-    <section class="event event--backend event--image-left">
-        <div class="container" data-aos="fade-left">
-            <div class="event__details">
-                <h2 class="event__details__title">Back-End</h2>
-                <p class="event__details__description">Back-end é toda a parte da programação voltada ao funcionamento
-                    interno de um software. Em outras palavras, back-end é tudo aquilo que está por trás da interface
-                    de uma aplicação: seus sistemas, banco de dados, toda parte de segurança de dados, envio e
-                    recebimento de informações, armazenamento e etc.
-                <p class="event__details__description">O back-end serve para que os sites, aplicativos, softwares ou
-                    outros tipos de sistemas de informação tenham todas as suas funcionalidades operando de maneira
-                    efetiva e cumprindo seus objetivos. O back-end também serve para dar suporte aos projetos de
-                    tecnologia, unindo uma equipe multidisciplinar com uma visão mais abrangente do que está por trás de
-                    todos os processos.
-                </p>
-                <p class="event__details__description">Profissionais back end são responsáveis por toda estrutura
-                    interna de uma aplicação. Este profissional deve ter domínio sobre as principais linguagens de
-                    programação back-end e sobre o funcionamento dos mais populares sistemas operacionais do mercado,
-                    tanto para computadores quanto para dispositivos mobile.</p>
-            </div>
-            <img class="event__image" src="./images/backend.png" alt="Back-End">
-        </div>
-    </section>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="scripts/main.js"></script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script src="scripts/main.js"></script>
 </body>
 
 </html>

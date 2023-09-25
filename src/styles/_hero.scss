@@ -1,14 +1,22 @@
-
 .hero {
     padding-top: 64px;
     padding-bottom: 100px;
-    background-image: url(../images/fundo.png);
+    background-image: url(../images/Cruzeiro.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 
+
     .container {
         position: relative;
+
+    }
+
+    .logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &::before {
@@ -23,26 +31,25 @@
     }
 
     &__text {
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin: 64px 24px;
+        
         font-size: 40px;
         line-height: 56px;
-        color: #fff;
         font-weight: 800;
         text-align: center;
     }
 
-    &__logo {
-        margin: 0 auto;
-        height: 80px;
-        display: block;
+
+    &__image {
+        max-width: 84px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     @media (max-width: 640px) {
         padding: 40px 0;
-        &__logo {
-            height: 60px;
-        }
 
         &__text {
             font-size: 24px;
